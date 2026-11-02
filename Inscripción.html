@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="icon" href="img/diablo-iv_vyyg.jpg">
+</head>
+<body id="top">
+    
+    <ul>
+            <li><a href="formulario.html">Inicio</a> </li>
+            <li><a href="Actividades.html">actividades</a> </li>
+            <li><a href="sobreGamescom.html">sobreGamescom</a></li>
+            <li><a href="Torneos.html">Torneos</a> </li>
+            <li><a href="Multimedia.html">Multimedia</a> </li>
+            <li><a href="Ubicacion.html">Ubicacion</a> </li>
+            <li><a href="Inscripción.html">Inscripción</a> </li>
+            <li><a href="Contacto.html">Contacto</a> </li>
+    </ul>
+
+    <h1>Formulario de Inscripción</h1> 
+
+     <form action="enviar.php" method="post">
+        <label for="Primer Nombre"> Primer Nombre</label>
+        <input type="text" id="Primer Nombre" name="Primer Nombre" required>
+        <label for="Segundo Nombre"> Segundo Nombre</label>
+        <input type="text" id="Segundo Nombre" name="Segundo Nombre" >
+        <label for="Primer Apellido"> Primer Apellido</label>
+        <input type="text" id=" Primer Apellido" name="Primer Apellido" required>
+        <label for="Segundo Apellido"> Segundo Apellido</label>
+        <input type="text" id="Segundo Apellido" name="Segundo Apellido" required>
+        <br>
+        <label for="correo">Correo Electronico</label>
+        <input type="email" id="correo" name="correo" required>
+        <br>
+        <label for="contraseña" >Contraseña</label>
+        <input type="password" name="contraseña" required>
+        <label for="confirma la contraseña" > Confirma la Contraseña</label>
+        <input type="password" name="Confirma la contraseña" required>
+        <br>
+        <label for="telefono">telefono</label>
+        <input type="tel" name="telefono"> 
+        <br>
+        <label for="condiciones">Condiciones</label>
+        <select name="condiciones" id="condiciones">
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select>
+        <br>
+        <label for="checkbox">
+            <input type="checkbox" name="privacidad" required>
+            Acepto las politicas de privacidad
+        </label>
+        <br>
+        <button type="submit" >enviar</button>
+
+     </form>
+</body>
+</html>
